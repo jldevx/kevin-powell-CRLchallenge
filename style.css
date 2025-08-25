@@ -317,6 +317,11 @@ a {
   .main-title {
     margin-bottom: 0;
   }
+
+  .main-description-wrapper {
+    margin-top: 2rem;
+    padding-right: 4rem;
+  }
 }
 
 @media (max-width: 800px) {
