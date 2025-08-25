@@ -19,7 +19,9 @@ body {
   left: 0;
   right: 0;
   background-color: #2e323f;
-  padding: 1.5rem 7rem;
+  padding: 1.5rem 0;
+  padding-left: clamp(1rem, 9vw, 7rem);
+  padding-right: clamp(1rem, 9vw, 7rem);
   color: #fff;
   display: flex;
   align-items: center;
@@ -87,7 +89,9 @@ a {
 }
 
 .container {
-  padding: 5rem 6rem;
+  padding: 5rem 0;
+  padding-left: clamp(1rem, 9vw, 7rem);
+  padding-right: clamp(1rem, 9vw, 7rem);
 }
 
 .main-title {
@@ -353,14 +357,14 @@ a {
     z-index: 2;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 2rem;
     position: absolute;
     top: 0;
     z-index: -2;
+    padding-top: 5rem;
     justify-content: center;
-    height: 40rem;
+    height: 35rem;
     width: 20rem;
     right: 0;
     background-color: #2e323f;
